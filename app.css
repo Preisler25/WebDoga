@@ -19,13 +19,25 @@ main * {
 
 img {
     width: 250px;
+
+}
+
+figure {
     float: left;
+}
+
+figcaption {
+    max-width: 270px;
 }
 
 h2 {
     font-style: italic;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
 
 tr {
     color: var(--mid-font);
