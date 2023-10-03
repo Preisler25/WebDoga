@@ -1,5 +1,6 @@
 :root {
     --dark-font: #03045e;
+    --mid-font: #023e8a;
     --light-bg: #ade8f4;
     --light-bg-tb: #caf0f8;
 }
@@ -25,6 +26,11 @@ h2 {
     font-style: italic;
 }
 
+
+tr {
+    color: var(--mid-font);
+}
+
 #idezet {
     font-size: 1.2em;
     text-align: center;
@@ -42,6 +48,8 @@ tbody tr:nth-child(even) {
 tbody tr:nth-child(odd) {
     background: var(--light-bg-tb);
 }
+
+
 
 footer {
     text-align: center;
