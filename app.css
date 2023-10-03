@@ -1,0 +1,54 @@
+:root {
+    --dark-font: #03045e;
+    --light-bg: #ade8f4;
+    --light-bg-tb: #caf0f8;
+}
+
+main * {
+    margin: 0;
+    padding: 0.2vh;
+    margin: 0 auto;
+}
+
+.dark-nf,
+.dark-nf a {
+    padding: 1vh;
+    background-color: var(--light-bg) !important;
+    color: var(--dark-font) !important;
+}
+
+img {
+    width: 250px;
+    display: flex;
+}
+
+h2 {
+    font-style: italic;
+}
+
+#idezet {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#cont {
+    display: flex;
+}
+
+
+thead tr th {
+    color: var(--dark-font);
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background: #FFF;
+}
+
+tbody tr:nth-child(odd) {
+    background: var(--light-bg-tb);
+}
+
+footer {
+    text-align: center;
+}
